@@ -54,4 +54,13 @@ xgboost==0.81
 
 ```shell
 pip3 freeze > requirements.txt
+------
+create a github project
+git init
+git config user.name HjwGivenLyy
+git config user.email 1752929469@qq.com
+git remote add origin git@github.com:htpauleta/PowerForecast.git
+git add .
+git commit -m "init a project"
+git push -u origin master
 ```
