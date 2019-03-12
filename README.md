@@ -64,3 +64,9 @@ git add .
 git commit -m "init a project"
 git push -u origin master
 ```
+mongodb:
+  host: "144.202.41.144"
+  port: 27017
+  pwd: "pauletapass"
+  user: "pauleta"
+  db: "xscore"
