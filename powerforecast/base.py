@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import train_test_split
 
 
-FILE_PATH = "/home/pauleta/pauleta-gauss/PowerForecast/PowerForecast/data/"
+FILE_PATH = "/home/pauleta/project/PowerForecast/powerforecast/data/"
 
 
 def evaluation_criteria_model(true_y: np.array, predict_y: np.array,

@@ -272,5 +272,5 @@ def create_model(model_type: str='svm', reduce_type: str='pca',
 
 if __name__ == "__main__":
 
-    eval_value1 = create_model(model_type="xgboost", eval_type="mape")
+    eval_value1 = create_model(model_type="svm", eval_type="mape")
     print(eval_value1)
